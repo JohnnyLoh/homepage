@@ -27,6 +27,20 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# LeWagon
+gem 'autoprefixer-rails'
+gem 'bootstrap-sass', '~> 3.3.7'
+gem 'font-awesome-sass', '~> 5.0.9'
+gem 'simple_form'
+
+# Webpack for Javascript
+gem 'webpacker', '~> 3.5'
+
+# JQuery
+gem 'jquery-rails'
+# Font Awesome
+gem 'font-awesome-rails'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

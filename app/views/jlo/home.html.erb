@@ -1,0 +1,38 @@
+
+<div class="grimmer">
+<!--   style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('Dolomiten.jpg') height="100vh";" -->
+  <div class="container">
+    <div class="row">
+      <div class="team-tab tab">
+        <button class="tablinks active">
+          <h3>Home</h3>
+        </button>
+        <button class="tablinks">
+          <h3>About me</h3>
+        </button>
+        <button class="tablinks">
+          <h3>My Hobbies</h3>
+        </button>
+        <button class="tablinks">
+          <h3>Contact Information</h3>
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="tabs-content-container">
+          <div class="tab-content active" id="home">
+            <%= render 'shared/home' %>
+          </div>
+          <div class="tab-content active" id="about me">
+            <%= render 'shared/about-me' %>
+          </div>
+          <div class="tab-content active" id="my hobbies">
+            <%= render 'shared/my-hobbies' %>
+          </div>
+          <div class="tab-content active" id="contact information">
+            <%= render 'shared/contact-information' %>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>

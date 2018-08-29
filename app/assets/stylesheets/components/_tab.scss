@@ -1,0 +1,109 @@
+.tab {
+  display: flex;
+  padding: 20px 20px 0 20px;
+}
+.team-tab{
+  background: #032a33;
+  // overflow-x: scroll;
+  // overflow: hidden;
+  overflow-x: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.tab-display {
+  display: flex;
+}
+.tab button {
+  color: white;
+  cursor: pointer;
+  // padding: 14px 16px;
+  transition: 0.3s;
+}
+.tab button:hover {
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 0.6;
+}
+.tab button.active {
+  background: #f1d18a;
+  color: black;
+}
+.tab h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 0;
+  padding: 15px 0 15px 15px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0;
+}
+.tab p {
+  overflow: hidden;
+  opacity: 0.5;
+  margin-bottom: 0;
+}
+
+.tablinks {
+  background: #255965;
+  flex: 0 0 25%;
+  text-align: center;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  // margin: 0px 20px;
+  padding: 5px 0;
+}
+// .tab:first-child {
+//   border-radius: 10px 0 0 0;
+// }
+// .tab:last-child {
+//   border-radius: 0 10px 0 0;
+// }
+//.tab.active {
+//  background: #f1d18a;
+//  color: black;
+// }
+
+.tablinks i {
+  margin: auto 15px;
+}
+
+.tabs-content-container {
+  // height: 20vh;
+  padding: 0 20px 20px 20px;
+}
+
+.tab-content {
+  display: none;
+  padding: 15px 15px 0px 30px;
+  // border: 1px solid #ccc;
+  border-top: none;
+  width: 100%;
+  background: #032A33;
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+.tab-content.active{
+  background: rgba(241, 209, 138, 0.3);
+  padding: 0px;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#team-show-link {
+  margin: auto 20px;
+}
+
+#team-delete-link {
+  margin: auto 0px;
+}
+.tabadd {
+  background: #255965;
+}
+
+.tabsrow {
+  overflow-x: scroll;
+}

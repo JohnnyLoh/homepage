@@ -1,0 +1,201 @@
+.lax figure{
+  overflow: hidden;
+  background-image: linear-gradient(-225deg, rgba(255, 255, 255, 0.1) 20%, rgba(0, 28, 47, 0.5) 60%), url(Laxback.jpg);
+  background-size: cover;
+  // width: 100%;
+  color: $one;
+  // position: relative;
+  display: flex;
+  justify-content: space-around;
+  height: 325px;
+  width: 100%;
+  text-align: center;
+  transition: all .2s ease;
+  // border-width: 4px;
+  //  border-style: solid;
+  // -webkit-border-image: -webkit-linear-gradient(top, #bea6cf 0%, #7ab1df 100%);
+  //  border-image: linear-gradient(to bottom, #bea6cf 0%, #7ab1df 100%);
+  //  border-image-slice: 1;
+
+}
+
+.ski figure{
+  overflow: hidden;
+  background-image: linear-gradient(-225deg, rgba(255, 255, 255, 0.1) 20%, rgba(0, 28, 47, 0.5) 60%), url(Skiback.jpg);
+  background-size: cover;
+  // width: 100%;
+  color: $one;
+  // position: relative;
+  display: flex;
+  justify-content: space-around;
+  height: 325px;
+  width: 100%;
+  text-align: center;
+  transition: all .2s ease;
+  // border-width: 4px;
+  //  border-style: solid;
+  // -webkit-border-image: -webkit-linear-gradient(top, #bea6cf 0%, #7ab1df 100%);
+  //  border-image: linear-gradient(to bottom, #bea6cf 0%, #7ab1df 100%);
+  //  border-image-slice: 1;
+
+}
+
+figcaption{
+  transform: translateY(100%);
+  // position: absolute;
+  // top: auto;
+  // bottom:0;
+  // height: 25%;
+  // padding: 10px;
+  // width: 100%;
+  transition: all .2s ease;
+}
+
+figure a {
+  color: $one;
+  margin: 5px;
+  padding: 0px;
+}
+
+figure h1.head{
+  color: $four;
+  padding: 20px 0px 0px 150px;
+  font-size: 48px;
+  // transition: all .2s ease;
+  text-shadow: 6px 6px 12px $one;
+}
+figure img{
+  // padding-top: 30px;
+  // width: 100px;
+  transition: all .2s ease;
+  max-height: 260px;
+  background-size: cover;
+}
+
+figure:hover figcaption{
+  transform: translateY(0);
+  bottom: 0;
+  // background: $three;
+
+}
+figure:hover h1{
+  color: $one
+}
+
+figure:hover img{
+  width: 400px;
+  transition: all .2s ease;
+}
+
+figure:hover {
+  background-image: linear-gradient(-225deg, rgba($four, 0.7)20%, rgba($three, 0.6) 80%), url(Laxback.jpg);
+  // background: $four;
+  // opacity: 0.5;
+}
+
+.lax:hover {
+  background-image: linear-gradient(-225deg, rgba(255, 255, 255, 0.2)20%, rgba(0, 28, 47, 0.6) 80%), url(Laxback.jpg);
+  background-size: cover;
+}
+
+// .militaer:hover {
+//   background-image: linear-gradient(-225deg, rgba(255, 255, 255, 0.2)20%, rgba(0, 28, 47, 0.6) 80%), url(Militaerback.jpg);
+//   background-size: cover;
+// }
+
+.product {
+  align-items: center;
+  margin: 0px 15px;
+  // height: 310px;
+  border-left: 10px solid #255965;
+  border-right: 10px solid #255965;
+  border-bottom: 10px solid #255965;
+}
+
+// .product img:hover {
+
+// }
+
+// /* Body design */
+.product-body {
+  flex: 1 1 auto;
+}
+.product-body h3 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 0;
+}
+.product-body p {
+  font-weight: lighter;
+  color: #999999;
+  margin-bottom: 0;
+}
+
+// /* Product image */
+.product-image {
+  margin: 0px 40px 0px 100px;
+  // border-radius: 10px;
+  margin-right: 20px;
+  width: 300px;
+}
+
+// /* Hover effects */
+.product:hover {
+  background: #f7f7fa;
+  cursor: pointer;
+}
+
+
+// -------------------------- Carousellll
+
+// body{
+//   background:#000;
+// }
+
+section.awSlider .carousel{
+  display:table;
+  z-index:2;
+  -moz-box-shadow: 0 0 4px #444;
+  -webkit-box-shadow: 0 0 4px #444;
+  box-shadow: 0 0 15px rgba(1,1,1,.5);
+}
+
+section.awSlider{
+  margin: auto;
+  padding:20px 0px 12.5px 0px;
+  position:relative;
+  display:table;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+// section.awSlider:hover > img{
+//   -ms-transform: scale(1);
+//   -webkit-transform: scale(1);
+//   transform: scale(1.2);
+//   opacity:0.5;
+// }
+
+section.awSlider img{
+   pointer-events: none;
+}
+
+section.awSlider > img{
+  position:absolute;
+  // top:30px;
+  z-index:1;
+  transition:all .3s;
+  filter: blur(1.8vw);
+  -webkit-filter: blur(2vw);
+  -moz-filter: blur(2vw);
+  -o-filter: blur(2vw);
+  -ms-filter: blur(2vw);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity:.5;
+}

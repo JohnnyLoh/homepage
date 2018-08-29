@@ -1,0 +1,37 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+
+body {
+  font-family: "Segoe UI", Helvetica Neue, Tahoma, sans-serif;
+}
+
+.contact .fa:before {
+  display: inline-block;
+  opacity: 0.7;
+  color: black;
+}
+
+.contact li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 1em;
+  text-align: center;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.contact {
+  display: inline-block;
+  margin: 15px auto;
+  padding-left: 0;
+  color: black;
+  font-size: 15px;
+}
+
+.cont {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+// ---------
