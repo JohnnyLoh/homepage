@@ -3,13 +3,24 @@
   display: flex;
   // height: calc(90vh - 35px);
   justify-content: space-around;
-  margin: 0px 45px 0 45px;
-  height: 300px;
+  // margin: 0px 45px 0 45px;
+  height: 400px;
 
 }
 
 .desc {
   color: $one;
+}
+
+.eduex {
+  display: flex;
+  overflow: scroll;
+  flex-direction: column;
+  height: 88vh;
+}
+
+#eduli {
+  padding: 30px 0;
 }
 
 // .eduex {
@@ -19,6 +30,7 @@
 #aboutme3 {
   display: flex;
   overflow: auto;
+  box-shadow: 0px 0px 10px 2px $two;
 }
 
 #aboutme3 img {
@@ -35,8 +47,12 @@
     position: relative;
     color: $two;
     font-size: 34px;
-    top: 20px;
-    right: -27px;
+    padding-left: 60px;
+    width: 400px;
+}
+
+#abmh2 {
+  margin-bottom: 40px;
 }
 
 .dload {
@@ -74,12 +90,27 @@ body {
   line-height: 1.6em;
 }
 
+#video {
+  font-size: 14px;
+  color: $four;
+}
+
+.ahead {
+  color: white;
+  text-shadow: none;
+}
+.ahead:hover {
+  color: $four;
+  // background-color: $one;
+  // opacity: 0.8;
+}
+
 /* ================ The Timeline ================ */
 
 .timeline {
   position: relative;
   width: 660px;
-  margin: 0 auto;
+  margin: 0 180px;
   margin-top: 20px;
   padding: 1em 0;
   list-style-type: none;
@@ -92,7 +123,7 @@ body {
   content: ' ';
   display: block;
   width: 6px;
-  height: 500px;
+  height: 800px;
   margin-left: -3px;
   background: rgb(80,80,80);
   background: -moz-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
@@ -106,7 +137,7 @@ body {
 }
 
 .timeline li {
-  padding: 1em 0;
+  // padding: 1em 0;
 }
 
 .timeline li:after {
